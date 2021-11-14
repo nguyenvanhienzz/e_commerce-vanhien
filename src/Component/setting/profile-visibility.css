@@ -1,0 +1,123 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 1, 0, 0.4);
+    backdrop-filter: blur(3px);
+    z-index: 1000;
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+}
+.modal-none {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.details-edit {
+    position: relative;
+    max-width: 560px;
+    max-height: 560px;
+}
+
+.edit {
+    position: absolute;
+    width: 560px;
+    height: 560px;
+    left: 70%;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 0 20px;
+    z-index: 10;
+    transition: 0.3s ease-in-out;
+    top: 0px;
+    opacity: 1;
+}
+.edit-clone {
+    position: absolute;
+    width: 560px;
+    height: 560px;
+    left: 70%;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 0 20px;
+    z-index: 10;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    top: -20px;
+}
+
+.edit-profile {
+    position: absolute;
+    top: 10%;
+    margin: 0 40px;
+    height: 75%;
+    overflow-x: scroll;
+    z-index: 10;
+}
+.edit-profile::-webkit-scrollbar {
+    display: none;
+}
+.edit-profile p {
+    font-size: 1.7rem;
+}
+.edit-profile .p-picture {
+    margin-top: 10px;
+    font-size: 2.3rem;
+    margin-bottom: 30px;
+}
+.edit-profile img {
+    border-radius: 50%;
+    height: 335px;
+    width: 335px;
+    object-fit: cover;
+    position: absolute;
+    left: 10%;
+    margin-top: 30px;
+}
+.btn-canlend {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    z-index: 100;
+}
+.btn-canlend .btn-input {
+    margin: 0 10px;
+    background: #fff;
+    color: #111;
+    border: 1px solid gray;
+    padding: 7px 20px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.btn-canlend .btn-input:hover {
+    background: #fff;
+    border: 1px solid #111;
+}
+.btn-canlend .btn-input {
+    background: #111;
+    color: #fff;
+    border: 1px solid #111;
+}
+.btn-canlend .btn-input:hover {
+    background: rgba(0, 1, 0, 0.6);
+}
+.btn-input .input-update {
+    display: none;
+}
+.icon-close {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    background: rgb(245, 245, 245);
+    border-radius: 25px;
+    width: 35px;
+    padding: 5px;
+    height: 35px;
+    cursor: pointer;
+}

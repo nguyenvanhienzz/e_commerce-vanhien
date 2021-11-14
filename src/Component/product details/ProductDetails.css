@@ -1,0 +1,310 @@
+.main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.productdetails {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.details-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.details-list img {
+    display: block;
+    width: 100%;
+    height: 485px;
+    object-fit: contain;
+    margin: 5px 5px;
+}
+.productdetails-right img:hover {
+    border: 1px solid #111;
+}
+
+.productdetails-right h2 {
+    color: #2c2c54;
+    margin-left: 10px;
+    font-size: 2.5rem;
+}
+.productdetails-right p {
+    font-size: 2rem;
+    color: #2c2c54;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.right-list {
+    display: flex;
+}
+.right-list img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.right {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #d43f21;
+}
+.right-size .right-input .active {
+    border: 1px solid #111;
+    font-size: 1.5rem;
+    background: #fff;
+    display: inline;
+    padding: 10px 23px;
+    border-radius: 5px;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+.size-btn {
+    font-size: 1.5rem;
+    background: #fff;
+    display: inline;
+    padding: 10px 23px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    margin: 0 5px 5px 0;
+    cursor: pointer;
+}
+.right-size .right-input {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.size-btn:hover {
+    border: 1px solid #111;
+}
+.productdetails-right .btn-add {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin-top: 20px;
+    background: #111;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.productdetails-right .btn-add:hover {
+    background: rgba(0, 0, 0, 0.85);
+}
+.productdetails-right .favourite-like .btn-add {
+    background: #fff;
+    color: #111;
+    border: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in-out;
+}
+
+.productdetails-right .favourite-like button:hover {
+    border: 1px solid gray;
+    transition: 0.1s ease-in-out;
+}
+.icon {
+    margin-left: 10px;
+}
+.productdetails-right .text .text-p {
+    width: 300px;
+    color: #111;
+    font-size: 1.7rem;
+    margin-top: 30px;
+    transition: 0.5s ease-in-out;
+    background: #fff;
+}
+.returns .returns-free {
+    font-size: 2rem;
+    color: #111;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.return-none {
+    position: absolute;
+    top: -200px;
+    transition: 0.2s ease-in-out;
+    z-index: 0;
+}
+.returns .icon {
+    font-size: 1.5rem;
+}
+.returns span {
+    margin-left: 10px;
+
+    font-size: 1.5rem;
+}
+.returns p {
+    font-size: 1.5rem;
+}
+.returns ul {
+    margin-top: 20px;
+}
+.returns ul li {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-left: 25px;
+}
+.returns .order {
+    font-size: 1.5rem;
+    color: #111;
+}
+.error {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* background: red; */
+}
+
+.error-none {
+    display: none;
+}
+.error-main {
+    position: relative;
+    border-radius: 25px;
+    padding: 32px;
+    background-color: #fff;
+    width: 436px;
+    height: 282px;
+}
+
+.error .error-main .icon {
+    cursor: pointer;
+    position: absolute;
+    right: 32px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.error-main h3 {
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+.error-main p {
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.btn-error {
+    background: #111;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 35%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn-error:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+.please-size {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #d43f21;
+}
+.notification {
+    position: absolute;
+    right: 20px;
+    top: 90px;
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    height: 270px;
+    transition: 0.5s ease-in-out;
+}
+
+.notification-none {
+    position: absolute;
+    right: 20px;
+    top: -200px;
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    height: 270px;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}
+.noti-icon {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+}
+.icon-clone {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+.noti-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-noti {
+    display: flex;
+}
+.product-noti img {
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+}
+.product-noti p {
+    font-size: 1.5rem;
+    margin: 0 0 7px 20px;
+}
+.product-noti span {
+    margin-left: 5px;
+    text-decoration: line-through;
+    color: gray;
+}
+.btn-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-view button {
+    padding: 17px;
+    background: #111;
+    color: #fff;
+    border-radius: 25px;
+    width: 160px;
+    margin: 40px 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.btn-view button:hover {
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+.btn-view .btn-cart {
+    font-weight: 900;
+    border: 1px solid gainsboro;
+    color: #111;
+    background: #fff;
+}
+.btn-view .btn-cart:hover {
+    background: #fff;
+    cursor: pointer;
+}
+.noti-p {
+    color: gray;
+}
+.btn-view .btn-favourites {
+    width: 100%;
+}

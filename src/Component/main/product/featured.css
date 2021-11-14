@@ -1,0 +1,75 @@
+.featured .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background: #f9f9f9;
+    padding: 2rem;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+.featured .row .image-container {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex: 1 1 50rem;
+}
+.featured .row .image-container .small-image {
+    width: 20%;
+}
+.featured .row .image-container .big-image {
+    width: 80%;
+    padding: 1rem;
+}
+.featured .row .image-container .small-image img {
+    width: 100%;
+    padding: 1rem;
+    max-height: 100px;
+    object-fit: cover;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.featured .row .image-container .small-image img:hover {
+    transition: 0.3s ease-in-out;
+    background: #ccc;
+}
+.featured .row .image-container .big-image img {
+    width: 100%;
+    max-height: 458px;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+.featured .row .image-container .big-image img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.featured .row .content {
+    flex: 1 1 40rem;
+}
+.featured .row .content h3 {
+    font-size: 2.5rem;
+    color: #2c2c54;
+}
+.featured .row .content .stars .icon-star {
+    color: #ff9f1a;
+    font-size: 2.5em;
+    padding: 0.5rem 0;
+}
+.featured .row .content p {
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
+.featured .row .content .price {
+    font-size: 2.5rem;
+    color: #2c2c54;
+    font-weight: bolder;
+}
+.featured .row .content .price span {
+    font-size: 1.5rem;
+    color: #ff9f1a;
+    font-weight: bolder;
+    text-decoration: line-through;
+}

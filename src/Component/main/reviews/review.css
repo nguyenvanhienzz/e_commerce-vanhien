@@ -1,0 +1,32 @@
+.review .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.review .box-container .box {
+    border: 0.1rem solid rgba(1, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    text-align: center;
+    background: #f9f9f9;
+    flex: 1 1 30rem;
+}
+.review .box-container .box img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem 0;
+}
+.review .box-container .box h3 {
+    font-size: 2.5rem;
+    color: #2c2c54;
+}
+.review .box-container .box p {
+    font-size: 1.6rem;
+    color: #666;
+    padding: 1rem 0;
+}
+.review .box-container .box .stars {
+    font-size: 2rem;
+    color: #ff9f1a;
+}

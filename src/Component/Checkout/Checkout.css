@@ -1,0 +1,239 @@
+.checkout {
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .checkout {
+        padding-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+.checkoutLeft .price {
+    float: right;
+    font-size: 2rem;
+}
+.checkoutLeft .price-none {
+    display: none;
+}
+.checkoutLeft span {
+    font-weight: 700;
+}
+.checkout .checkoutLeft h2 {
+    font-size: 3rem;
+}
+.checkout .checkoutLeft span {
+    width: 200px;
+    border-bottom: 10rem solid #fff;
+}
+.checkout .checkoutLeft .checkoutItems {
+    display: flex;
+}
+.checkout-title {
+    width: 100%;
+}
+.checkout-h3 {
+    display: flex;
+    justify-content: space-between;
+}
+.checkoutItems {
+    padding: 20px 0;
+    border-bottom: 1px solid #111;
+}
+.img-item {
+    width: 200px;
+    height: 150px;
+}
+.checkoutItems img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.checkoutItems .checkout-title {
+    margin-left: 25px;
+}
+.checkoutItems .checkout-title h3 {
+    font-size: 2rem;
+}
+.checkout-title .label {
+    display: flex;
+}
+.checkout-title p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.checkoutItems h3 {
+    font-size: 2rem;
+}
+
+.label-size label {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.label-size select option {
+    display: block;
+}
+.countInStock {
+    padding: 5px 10px;
+    font-size: 2rem;
+    height: 0;
+}
+.label-Quantity button {
+    padding: 0px 10px;
+    cursor: pointer;
+    font-size: 2rem;
+    background: #fff;
+}
+.btn- {
+    border-right: 1px solid gray;
+}
+.btn11 {
+    border-left: 1px solid gray;
+}
+.label-Quantity {
+    margin-left: 2px;
+    display: flex;
+    border: 1px solid gray;
+}
+.favourites {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: gray;
+
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.favourites-none {
+    display: none;
+}
+.favourites:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+}
+.checkout-remove p {
+    display: block;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    cursor: pointer;
+    color: gray;
+    margin-left: 10px;
+    transition: 0.2s ease-in-out;
+    text-decoration: underline;
+}
+.checkout-remove p:hover {
+    transition: 0.2s ease-in-out;
+    color: rgba(0, 0, 0, 1);
+}
+.checkoutRight {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 20px;
+    /* background: silver; */
+    border-radius: 10px;
+    height: 230px;
+    border: 1px solid #eee;
+}
+.checkoutRight p {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.checkoutRight span {
+    font-weight: 600;
+}
+.checkoutRight .checkout-btn {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.checkoutRight .checkout-btn:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+.checkoutRight .btn-none {
+    background: #eee;
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* favourites */
+
+.checkout-favourites {
+    display: block;
+    margin-top: 250px;
+}
+
+.favourites-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkout-favourites .favourite-h3 {
+    display: block;
+    font-size: 2rem;
+}
+.checkout-favourites .favourites-node {
+    display: none;
+}
+
+.checkout-favourites .gotofavourite {
+    font-size: 1.5rem;
+    color: lightslategray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.checkout-favourites .gotofavourite:hover {
+    color: gray;
+}
+.list-favourite {
+    margin-bottom: 30px;
+    border-bottom: 1px solid gainsboro;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.favourites-left {
+    display: flex;
+}
+.favourites-left img {
+    width: 165px;
+    height: 150px;
+    object-fit: cover;
+}
+.favourites-context {
+    font-size: 2rem;
+    margin-left: 20px;
+}
+.favourites-context button {
+    padding: 10px 15px;
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.1s;
+    font-size: 1.5rem;
+}
+.favourites-context button:hover {
+    border: 1.5px solid #ddd;
+    transition: 0.1s ease-in-out;
+}
+.favourites-right {
+    font-size: 2rem;
+}

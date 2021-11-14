@@ -1,0 +1,107 @@
+.community-component {
+    margin-top: 150px;
+}
+.community-imgbig {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 746px;
+    left: 6rem;
+    right: 6rem;
+}
+.community-imgbig img {
+    position: absolute;
+}
+.community-imgbig h1 {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-size: 4rem;
+    left: 3rem;
+}
+.community-text {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    width: 650px;
+    margin-left: 250px;
+}
+.community-text h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
+
+.black-culture {
+    display: flex;
+    margin: 100px 70px 50px 60px;
+}
+.black-culture1 {
+    padding: 5px;
+}
+.black-culture1 h1 {
+    margin-top: 20px;
+    font-size: 3.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.black-culture1 p {
+    font-size: 1.4rem;
+}
+.black-culture1 button {
+    background: #111;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.black-culture1 button a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.community-our h1 {
+    font-size: 2.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-weight: 800;
+    margin-left: 50px;
+}
+.community-partners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+.our-partners {
+    font-size: 1rem;
+    padding: 0 5px;
+    width: 100%;
+    height: 100%;
+}
+.our-partners h2 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+        "Helvetica Neue", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.our-partners p {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+.our-partners button {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.our-partners button a {
+    color: #111;
+    text-decoration: underline;
+    font-weight: 900;
+}

@@ -1,0 +1,38 @@
+.contant-community {
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    height: 60px;
+    padding: 0 40px;
+}
+.contant-community .contant-img {
+    width: 100px;
+    height: 100px;
+}
+.contant-community .contant-img img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+}
+.community-ul ul {
+    font-size: 1.5rem;
+    margin-left: 300px;
+    display: flex;
+}
+.community-ul ul li {
+    cursor: pointer;
+    padding: 0 15px;
+    list-style: none;
+    transition: 0.2s ease-in-out;
+}
+.community-ul ul li:hover {
+    color: #ff9f1a;
+    transition: 0.2s ease-in-out;
+}

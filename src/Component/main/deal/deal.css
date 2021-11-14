@@ -1,0 +1,47 @@
+.deal .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    text-align: center;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    margin: 1.5rem 0;
+}
+.deal .row .content {
+    flex: 1 1 40rem;
+
+    padding: 1rem;
+}
+.deal .row .image {
+    flex: 1 1 40rem;
+    padding: 2rem;
+}
+.deal .row .image img {
+    width: 100%;
+}
+.deal .row .discount {
+    font-size: 2rem;
+    color: #ff9f1a;
+}
+.deal .row .text {
+    font-size: 4rem;
+    color: #2c2c54;
+    padding: 0.5rem 0;
+}
+.deal .row .count-down {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+.deal .row .count-down h3 {
+    color: #ff9f1a;
+    font-size: 4rem;
+}
+.deal .row .count-down span {
+    color: #2c2c54;
+    font-size: 1.5rem;
+}

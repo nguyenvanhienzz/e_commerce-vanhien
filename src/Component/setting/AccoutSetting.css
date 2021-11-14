@@ -1,0 +1,473 @@
+.accout-setting {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+.accout-setting p {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.accout-list {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.accout-list ul li {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.75);
+    transition: 0.3s ease-in-out;
+}
+.accout-list ul li:hover {
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.accout-list ul li .icons {
+    margin-right: 20px;
+}
+
+/* account-detail */
+
+.edit-accout {
+    margin-top: 20px;
+}
+.account-detail {
+    max-width: 400px;
+}
+.account-detail fieldset {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 350px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.account-detail fieldset:hover {
+    border: 1px solid rgba(0, 0, 0, 0.75);
+}
+.account-detail legend {
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+.edit-accout fieldset {
+    width: 350px;
+    padding: 10px 0;
+    height: 60px;
+}
+
+.edit-accout select {
+    width: 100%;
+}
+.edit-accout input {
+    width: 100%;
+    padding: 0 5px;
+}
+.edit-accout p {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.fieldset-none {
+    margin-top: 20px;
+}
+.fieldset-none p {
+    font-size: 1.6rem;
+}
+.fieldset-none input {
+    margin-bottom: 20px;
+    width: 330px;
+}
+.fieldset-none span {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+.fieldset-none span:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+.edit-accout .save-btn {
+    background: #111;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 25px;
+    margin-right: 40px;
+    float: right;
+    cursor: pointer;
+}
+.edit-accout .save-none {
+    background: gray;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 25px;
+    margin-right: 40px;
+    float: right;
+    cursor: none;
+}
+.edit-accout .save-none:hover {
+    background: gray;
+}
+.phone-error {
+    color: red;
+}
+
+/* edit-password */
+.edit-password {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 1, 0, 0.4);
+    backdrop-filter: blur(3px);
+    transition: 0.3s ease-in-out;
+    opacity: 1;
+    z-index: 1000;
+}
+.edit-none {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.password-defase {
+    position: absolute;
+    width: 560px;
+    height: 560px;
+    left: 70%;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 0 20px;
+    z-index: 10;
+    transition: 0.3s ease-in-out;
+    top: 0px;
+    opacity: 1;
+}
+
+.password-defase .save-none {
+    background: gray;
+}
+.password-defase .save-none:hover {
+    background: gray;
+}
+.password-clone {
+    position: absolute;
+    width: 560px;
+    height: 500px;
+    left: 70%;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 0 20px;
+    z-index: 10;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    top: -20px;
+}
+.password-new {
+    position: absolute;
+    top: 10%;
+    margin: 0 40px;
+    height: 75%;
+    overflow-x: scroll;
+    z-index: 10;
+}
+.password-new::-webkit-scrollbar {
+    display: none;
+}
+.password-new .password-fieldset fieldset {
+    width: 430px;
+    margin-top: 20px;
+}
+.password-new .password-fieldset input {
+    height: 100%;
+    padding: 7px;
+    width: 100%;
+}
+.password-fieldset legend {
+    margin-left: 2px;
+}
+.password-fieldset p {
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+.password-new {
+    position: absolute;
+    top: 10%;
+    margin: 0 40px;
+    height: 75%;
+    overflow: scroll;
+    z-index: 10;
+}
+.password-requirements {
+    margin-top: 60px;
+}
+.password-requirements p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.password-requirements .icon {
+    display: flex;
+    align-items: center;
+}
+.password-requirements .icon .icon-clone {
+    font-size: 2rem;
+}
+.edit-password fieldset {
+    width: 350px;
+    padding: 10px 0;
+    height: 60px;
+}
+
+.edit-password button {
+    position: absolute;
+    bottom: 30px;
+    right: 60px;
+    width: 70px;
+}
+/* Payment */
+.account-detail button {
+    background: #111;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.account-detail button:hover {
+    transition: 0.2s;
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+/* DeliveryAddresses */
+.delivery-addresses p {
+    margin-bottom: 20px;
+}
+.delivery-addresses .span-add {
+    font-size: 1.6rem;
+    line-height: 30px;
+}
+.delivery-addresses button {
+    font-size: 1.5rem;
+    float: right;
+}
+
+/* shop-preferences */
+.shop-preferences fieldset {
+    margin-top: 20px;
+    height: 60px;
+}
+.shop-preferences select {
+    height: 100%;
+    width: 100%;
+}
+.shop-radio label {
+    display: inline-flex;
+    align-items: center;
+    margin: 20px 0 0 10px;
+    font-size: 1.5rem;
+}
+.shop-radio input {
+    display: none;
+}
+.radio-radio {
+    width: 20px;
+    height: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-right: 15px;
+}
+.radio-radio::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #111;
+    transform: scale(0);
+    border-radius: 50%;
+}
+.shop-radio input:checked + .radio-radio::after {
+    transform: scale(1);
+}
+.shop-radio .shop-settings {
+    margin: 40px 0;
+}
+.shop-radio .shop-settings p {
+    font-size: 1.7rem;
+}
+.shop-radio .shop-unit p {
+    font-size: 1.7rem;
+}
+.shop-preferences button {
+    float: right;
+    margin-right: 50px;
+}
+
+/* Communication */
+.communication .text {
+    font-size: 1.6rem;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.communication .text1 {
+    font-size: 1.6rem;
+}
+.label-check {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.label-check .checked {
+    width: 23px;
+    height: 23px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.label-check input {
+    display: none;
+}
+.checked::after {
+    content: "\2714";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #111;
+    transform: scale(0);
+    color: ghostwhite;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1px;
+}
+.label-check input:checked + .checked::after {
+    transform: scale(1);
+}
+.communication button {
+    float: right;
+}
+
+/* profile-visibility */
+.profile-visibility .text {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.profile-display {
+    margin-top: 30px;
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 30px;
+}
+.edit-img {
+    display: block;
+}
+.edit-img img {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    opacity: 1;
+}
+.edit-img img:hover {
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.8;
+}
+.edit-img .icon {
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.edit-display {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.edit-display p {
+    font-size: 1.7rem;
+}
+.text-name {
+    color: gray;
+}
+.edit-display button {
+    background: #fff;
+    color: #111;
+    border: 1px solid gainsboro;
+    padding: 7px 40px;
+}
+.edit-display button:hover {
+    border: 1px solid #111;
+    background: #fff;
+}
+.profile-review p {
+    font-size: 1.6rem;
+    line-height: 26px;
+    cursor: pointer;
+}
+.profile-review p:hover {
+    color: gray;
+}
+.profile-learn {
+    text-decoration: underline;
+}
+.profile-radio {
+    margin: 20px 0;
+}
+.profile-radio label {
+    display: inline-flex;
+    font-size: 1.6rem;
+    align-items: center;
+    margin: 6px 10px;
+}
+.profile-radio label input {
+    display: none;
+}
+
+.profile-radio input:checked + .radio-radio::after {
+    transform: scale(1);
+}
+.profile-sharing p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.profile-sharing label {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.6rem;
+    margin: 5px 10px;
+}
+.profile-sharing label input {
+    display: none;
+}
+.profile-sharing input:checked + .radio-radio::after {
+    transform: scale(1);
+}
+.profile-visibility button {
+    padding: 10px 20px;
+    float: right;
+}
+
+/* linked-accont */
+.linked-accont .linked {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.linked-accont p {
+    font-size: 1.6rem;
+}
+.linked-accont .linked-icon {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    background: lavender;
+    height: 100px;
+    padding-left: 20px;
+}
+.linked-accont .linked-icon .icon {
+    margin-right: 5px;
+}

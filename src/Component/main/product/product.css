@@ -1,0 +1,99 @@
+.heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #2c2c54;
+    padding: 1rem;
+}
+.heading span {
+    text-transform: uppercase;
+    color: #ff9f1a;
+}
+.products .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.products .box-container .box {
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: #f9f9f9;
+    flex: 1 1 30rem;
+}
+.products .box-container .box .content {
+    padding: 1.5rem;
+}
+.products .box-container .box img {
+    height: 15rem;
+    width: 250px;
+    /* width: 200px;
+    height: 150px; */
+    object-fit: cover;
+    transform: rotate(-35deg);
+    filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.1));
+    margin: 8rem 2rem;
+    transition: 0.3s ease-in-out;
+}
+.products .box-container .box:hover img {
+    transition: 0.3s ease-in-out;
+    transform: rotate(-35deg) scale(1.2);
+}
+.products .box-container .box .icons {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 0.5rem;
+    left: -10rem;
+    transition: 0.3s ease-in-out;
+}
+.products .box-container .box:hover .icons {
+    left: 1rem;
+    transition: 0.3s ease-in-out;
+}
+.products .box-container .box .icons .icon-product {
+    height: 4.5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color: #2c2c54;
+    border: 0.1rem solid #2c2c54;
+    border-radius: 0.5rem;
+    background: #fff;
+    margin-top: 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+.products .box-container .box .icons .icon-product:hover {
+    background: #ff9f1a;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+.products .box-container .box .content h3 {
+    color: #2c2c54;
+    font-size: 2.5rem;
+}
+.products .box-container .box .content .price {
+    color: #2c2c54;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+.products .box-container .box .content .price span {
+    color: #ff9f1a;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.products .box-container .box .content .starts {
+    padding-bottom: 1rem;
+}
+.products .box-container .box .content .starts .icon-star {
+    font-size: 1.7rem;
+    color: #ff9f1a;
+}
+@media screen and (max-width: 400px) {
+    .heading {
+        font-size: 3rem;
+    }
+}

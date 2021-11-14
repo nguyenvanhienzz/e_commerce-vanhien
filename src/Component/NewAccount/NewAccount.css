@@ -1,0 +1,57 @@
+.account {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.account-main img {
+    height: 50px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 130px;
+}
+.account-main h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+.input-account input {
+    margin-top: 20px;
+    border: 1px solid silver;
+    padding: 10px 10px;
+    width: 350px;
+}
+.check {
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.input-account .check {
+    color: red;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.input-account button {
+    width: 350px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 10px;
+    color: #fff;
+    background: #111;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.input-account .member {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: gray;
+}
+.input-account .member .signin {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.input-account .member .signin:hover {
+    color: #112;
+}
